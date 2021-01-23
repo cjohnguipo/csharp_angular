@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ET7dY3DQNcKYkHGykvMgXYKr2BgR79CF39xVrrK62ZYEgvxNQ3xbnEgXuQvMIqXqQc0Ws8QaCy1vtxWwMKl1wQ==",
+  "dgSpecHash": "5zi++TJC91ZOoIa5Kg+u8LwOXkvqqVQdYvP5w4yH7Hte3vzZr7x4D/5QuRPoJi1r9/gUWkCt5O1p3rjQ2IHhiA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\angular\\skinet\\API\\API.csproj",
+  "projectFilePath": "D:\\Projects\\angular\\skinet\\api\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\xan\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\xan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\xan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\xan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\xan\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.2\\microsoft.data.sqlite.core.5.0.2.nupkg.sha512",
@@ -38,7 +40,8 @@
     "C:\\Users\\xan\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\xan\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\xan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "C:\\Users\\xan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\xan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\xan\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -59,3 +59,5 @@ D:\Projects\angular\skinet\API\bin\Debug\net5.0\ref\API.dll
 D:\Projects\angular\skinet\API\bin\Debug\net5.0\API.pdb
 D:\Projects\angular\skinet\API\obj\Debug\net5.0\API.csproj.CopyComplete
 D:\Projects\angular\skinet\API\obj\Debug\net5.0\API.genruntimeconfig.cache
+D:\Projects\angular\skinet\api\bin\Debug\net5.0\AutoMapper.dll
+D:\Projects\angular\skinet\api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

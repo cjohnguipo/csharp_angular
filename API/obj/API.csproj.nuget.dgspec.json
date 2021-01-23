@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\angular\\skinet\\API\\API.csproj": {}
+    "D:\\Projects\\angular\\skinet\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\angular\\skinet\\API\\API.csproj": {
+    "D:\\Projects\\angular\\skinet\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\angular\\skinet\\API\\API.csproj",
+        "projectUniqueName": "D:\\Projects\\angular\\skinet\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Projects\\angular\\skinet\\API\\API.csproj",
+        "projectPath": "D:\\Projects\\angular\\skinet\\api\\API.csproj",
         "packagesPath": "C:\\Users\\xan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\angular\\skinet\\API\\obj\\",
+        "outputPath": "D:\\Projects\\angular\\skinet\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -49,6 +49,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
