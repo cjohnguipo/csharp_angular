@@ -30,6 +30,13 @@ namespace API
             //write this below  the ---> services.AddControllers();
             services.AddApplicationServices();
             services.AddSwaggerDocumentation();
+            services.AddCors(opt => 
+            {
+                opt.AddPolicy("CorsPolicy", policy => 
+                {
+                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200");
+                });
+            });
 
         }
 
@@ -52,6 +59,8 @@ namespace API
             app.UseRouting();
 
             app.UseStaticFiles();
+
+            app.UseCors("CorsPolicy"); //before or above the line app.UseAuthorization();    
 
             app.UseAuthorization();
 
