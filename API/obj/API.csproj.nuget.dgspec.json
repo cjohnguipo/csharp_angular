@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\angular\\skinet\\api\\API.csproj": {}
+    "D:\\Projects\\angular\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\angular\\skinet\\api\\API.csproj": {
+    "D:\\Projects\\angular\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\angular\\skinet\\api\\API.csproj",
+        "projectUniqueName": "D:\\Projects\\angular\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Projects\\angular\\skinet\\api\\API.csproj",
+        "projectPath": "D:\\Projects\\angular\\skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\xan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\angular\\skinet\\api\\obj\\",
+        "outputPath": "D:\\Projects\\angular\\skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
