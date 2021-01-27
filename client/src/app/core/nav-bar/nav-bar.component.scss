@@ -10,3 +10,26 @@
   top: -15px;
   right: 38px;
 }
+
+
+a {
+  text-decoration: none;
+  color: #343a40;
+
+  &.active {
+    color: orange;
+  }
+
+
+
+}
+
+.logo {
+
+  cursor: pointer;
+  border-style: none;
+  &.focus{
+    outline: none;
+  }
+
+}
