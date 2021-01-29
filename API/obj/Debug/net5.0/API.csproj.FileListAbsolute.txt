@@ -61,3 +61,10 @@ D:\Projects\angular\skinet\API\obj\Debug\net5.0\API.csproj.CopyComplete
 D:\Projects\angular\skinet\API\obj\Debug\net5.0\API.genruntimeconfig.cache
 D:\Projects\angular\skinet\api\bin\Debug\net5.0\AutoMapper.dll
 D:\Projects\angular\skinet\api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\angular\skinet\API\bin\Debug\net5.0\Pipelines.Sockets.Unofficial.dll
+D:\Projects\angular\skinet\API\bin\Debug\net5.0\StackExchange.Redis.dll
+D:\Projects\angular\skinet\API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\angular\skinet\API\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
+D:\Projects\angular\skinet\API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\angular\skinet\API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+D:\Projects\angular\skinet\API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
