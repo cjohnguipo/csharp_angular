@@ -5,3 +5,4 @@ bin
 appsettings.json
 *.db
 ssl
+*.rdb
