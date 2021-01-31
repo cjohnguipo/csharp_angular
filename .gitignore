@@ -1,5 +1,6 @@
 *.vs
 *.vscode
+*.dll
 obj
 bin
 appsettings.json

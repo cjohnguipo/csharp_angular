@@ -45,11 +45,7 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[5.0.2, )"
             }
