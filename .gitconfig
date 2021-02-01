@@ -2,6 +2,6 @@ git config --global core.safecrlf false
 
 git add .
 
-git commit -m ""
+git commit -m "End of Section 17"
 
 git push origin master

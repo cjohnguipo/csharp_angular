@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://localhost:5001/api/'
+  apiUrl: 'https://localhost:5001/api/',
+  passwordRegEx: '(?=^.{6,25}$)(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&amp;*()_+}{&quot;:;\'?\/&gt;.&lt;,])(?!.*\\s).*$',
+  emailRegEx: '^\\w+@[a-zA-Z_]+?\\.[a-zA-Z]{2,3}$'
 };
 
 /*
