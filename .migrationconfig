@@ -1,7 +1,13 @@
 In case of multiple dbContext
 
 to add: 
-dotnet ef migrations add IdentityInitial -p Infrastructure -s API -o Identity/Migrations -c AppIdentityDbContext
+--No Assigned OutputProject Location (-o)
+dotnet ef migrations add <MigrationName> -p Infrastructure -s API -c <DBContextName>
+--With Assigned OutputProject Location (-o)
+dotnet ef migrations add <MigrationName> -p Infrastructure -s API -o <> -c <DBContextName>
 
 to remove:
 dotnet ef migrations remove -p Infrastructure -s API -c AppIdentityDbContext
+
+to drop ef database:
+dotnet ef database drop -p Infrastructure -s API -c AppIdentityDbContext

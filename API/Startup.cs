@@ -39,8 +39,8 @@ namespace API
             });
             
             //write this below  the ---> services.AddControllers();
-            services.AddApplicationServices();
             services.AddIdentityServices(_config);
+            services.AddApplicationServices();
             services.AddSwaggerDocumentation();
             services.AddCors(opt => 
             {

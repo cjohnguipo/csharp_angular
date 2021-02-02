@@ -34,7 +34,7 @@ namespace API.Extensions
                 };
                 c.AddSecurityRequirement(securityRequirement);
             });
-            
+
             return services;
         }
 
