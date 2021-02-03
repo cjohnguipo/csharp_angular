@@ -1,6 +1,4 @@
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
+using System.Collections.Generic; 
 using System.Threading.Tasks;
 using API.DTOs;
 using API.Errors;
@@ -13,8 +11,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-     [Authorize]
-    //  [ApiExplorerSettings(IgnoreApi = true)]
+
+    [Authorize]     
     public class OrdersController : BaseApiController
     {
         private readonly IOrderService _orderService;
@@ -26,7 +24,7 @@ namespace API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Order>> CreateOrder(OrderDTO orderDTO)
+        public async Task<ActionResult<OrderDTO>> CreateOrder(OrderDTO orderDTO)
         {
             var email = HttpContext.User.RetrieveEmailFromPrincipal();
             var address = _mapper.Map<AddressDTO, Address>(orderDTO.ShipToAddress);
@@ -37,10 +35,11 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<OrderDTO>>> GetOrdersForUsers()
+        public async Task<ActionResult<IReadOnlyList<OrderDTO>>> GetOrdersForUser()
         {
             var email = HttpContext.User.RetrieveEmailFromPrincipal();
-            var orders = await _orderService.GetOrderForUserAsync(email);
+            
+            var orders = await _orderService.GetOrdersForUserAsync(email);
 
             return Ok(_mapper.Map<IReadOnlyList<Order>, IReadOnlyList<OrderToReturnDTO>>(orders));
         }
@@ -59,7 +58,6 @@ namespace API.Controllers
         public async Task<ActionResult<IReadOnlyList<DeliveryMethod>>> GetDeliveryMethods()
         {
             return Ok(await _orderService.GetDeliveryMethodsAsync());
-            
         }
 
     }

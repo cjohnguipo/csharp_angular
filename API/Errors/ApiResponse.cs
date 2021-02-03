@@ -20,7 +20,9 @@ namespace API.Errors
                 400 => "You made a Bad Request",
                 401 => "Sorry, you are not Authorized",
                 404 => "Resource Not Found",
+                405 => "Request Method Not Allowed",
                 500 => "Server Error",
+                501 => "Not Allowed",
                 _ => null
             };
         }

@@ -25,8 +25,8 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddAutoMapper(typeof(MappingProfiles));
             services.AddControllers();
+            services.AddAutoMapper(typeof(MappingProfiles));
             services.AddDbContext<StoreContext>(c => c.UseSqlite(_config.GetConnectionString("DefaultConnection")));
           
             services.AddDbContext<AppIdentityDbContext>(x => {
@@ -41,7 +41,6 @@ namespace API
             //write this below  the ---> services.AddControllers();
             services.AddIdentityServices(_config);
             services.AddApplicationServices();
-            services.AddSwaggerDocumentation();
             services.AddCors(opt => 
             {
                 opt.AddPolicy("CorsPolicy", policy => 
@@ -49,6 +48,8 @@ namespace API
                     policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200");
                 });
             });
+
+            services.AddSwaggerDocumentation();
 
         }
 
